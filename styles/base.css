@@ -3,12 +3,14 @@
 
 
 header {
+
     background: #FAFF81;
     padding: 3rem;
     text-align: center;
     font-size: 1em;
     font-family: Oswald;
-    border: black;
+    border-color: black;
+    color: #FFFFFF;
 }
 
 h1 {
@@ -19,10 +21,6 @@ h1 {
 h2 {
     text-align: center;
     text-decoration: underline;
-}
-
-h3 {
-    border: #1B133E
 }
 
 nav {
@@ -36,6 +34,8 @@ nav {
 
 main {
     display: grid;
+    grid-column: 3/5;
+    grid-row: 2/3;
     background: #FFFFFF;
     height: 100%;
     padding: 6rem;
@@ -54,6 +54,7 @@ main {
 }
 
 footer {
+    display: grid;
     background: #1B133E;
     padding: 2rem;
     text-align: center;
