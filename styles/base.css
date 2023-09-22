@@ -18,7 +18,7 @@ h1 {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #1B133E;
     padding: 10rem;
     height: 100%;
@@ -67,4 +67,17 @@ footer {
     padding: 1rem;
     color: #FFFFFF;
     font-family: Finlandica, serif;
+}
+
+/*larger view media query***/
+
+@media (min-width: 648px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+
+    }
 }
