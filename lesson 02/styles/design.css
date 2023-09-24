@@ -49,6 +49,10 @@ h3 {
     margin-bottom: .5rem;
 }
 
+img {
+    grid-column: auto;
+}
+
 
 
 .callout {
