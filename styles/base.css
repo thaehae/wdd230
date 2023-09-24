@@ -36,6 +36,7 @@ a {
 
 li {
     color: #caec31;
+    background-color: #9670ee;
 }
 
 h2 {
@@ -43,11 +44,15 @@ h2 {
     text-decoration: underline;
 }
 
+h3 {
+    background-color: #9670ee;
+}
+
 main {
     display: flex;
     grid-column: 3/5;
     grid-row: 2/3;
-    background: #FFFFFF;
+    background: #9670ee;
     height: 100%;
     padding: 6rem;
     text-align: center;
