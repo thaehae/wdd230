@@ -1,88 +1,77 @@
 body {
-    background-color: #FFFFFF;
+    font-family: 'Lato', serif;
+
 }
 
-header {
+header,
+footer {
     display: flex;
-    justify-content: center;
-    background: #FAFF81;
-    padding: 1rem;
-}
+    grid-template-columns: auto;
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: #1b133e;
+    justify-content: space-evenly;
+    border: 1px solid #1b133e;
+    color: #f3f7b3;
 
-h1 {
-    text-align: center;
-    padding: 10px;
-    margin: auto;
-    height: 60px;
-    color: #1B133E;
-    font-family: Quicksand, serif;
 }
 
 nav {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #1B133E;
-    padding: 4rem;
-    height: 100%;
-    text-align: center;
-    color: #ecd3d3;
-    font-family: Finlandica, serif;
-}
-
-
-a {
-    color: #caec31;
-}
-
-li {
-    color: #caec31;
-    background-color: #9670ee;
-}
-
-h2 {
-    text-align: center;
-    text-decoration: underline;
-}
-
-h3 {
-    background-color: #9670ee;
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: #FAFF81;
+    border: 2px solid #1b133e;
+    color: #1b133e;
 }
 
 main {
-    display: flex;
-    grid-column: 3/5;
-    grid-row: 2/3;
-    background: #9670ee;
-    height: 100%;
-    padding: 6rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+    max-width: 620px;
+    margin: 1rem auto;
+    background-color: #f3f7b3;
     text-align: center;
-    font-family: Quicksand, serif;
+    color: #1b133e;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin: 6rem auto;
+}
+
+h3 {
+    color: #FAFF81;
+    background-color: #1b133e;
+    justify-content: space-evenly;
+
+
+}
+
+h2 {
+    color: #1b133e;
 }
 
 .card-LA {
-    display: flex;
-    justify-content: center;
-    background: #FFFFFF;
-    padding: 1rem;
-    font-family: Finlandica, serif;
-    color: #1B133E;
+    border: 2px solid #1b133e;
 }
 
 .card-Info {
-    display: flex;
-    justify-content: center;
-    background: #FFFFFF;
-    padding: 1rem;
-    font-family: Quicksand, serif;
-    color: #1B133E;
-
+    border: 2px solid #1b133e;
 }
 
-footer {
-    display: flex;
+p {
+    font-family: 'PT-Serif', serif;
+}
+
+img {
+    margin: .5rem auto;
+}
+
+ul {
     justify-content: center;
-    background: #1B133E;
-    padding: 1rem;
-    color: #FFFFFF;
-    font-family: Finlandica, serif;
 }
