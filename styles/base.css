@@ -75,3 +75,8 @@ img {
 ul {
     justify-content: center;
 }
+
+::marker {
+    color: rgb(8, 8, 245);
+    font-size: 23px;
+}
