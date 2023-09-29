@@ -21,24 +21,16 @@
 
 
 </head>
-<style>
-    footer::before {
-        content: "🌺";
-    }
-
-    footer::after {
-        content: "🌺";
-    }
-</style>
 
 <body>
     <header>
-        <img src="images/Resized2_Tracy.jpg" alt="girl in pink">
-        <h1>Tracy Mahuenoa Haehae</h1>
+        <img class="profile" src="images/Resized2_Tracy.jpg" height="219" width="180" alt="girl in pink">
+        <h1>Tracy M. Haehae</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href="#" target=”_blank”>Home</a></li>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="#" target=”_blank” class="active">Home</a></li>
             <li><a href="chamber/siteplan.html" target=”_blank”>Site Plan</a></li>
             <li><a href="chamber/" target=”_blank”>Chamber</a></li>
             <li><a href="https://www.byui.edu/" target=”_blank”>BYU-Idaho</a></li>
@@ -48,12 +40,13 @@
     </nav>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
+        <hr>
         <section class="card-LA">
             <h3>Learning Activities</h3>
             <ul>
-                <li><a href="./lesson 01/holygrail.html"> Holy Layout</a></li>
-                <li><a href="./lesson02/design-principles.html"> Design Principles</a></li>
-                <li><a href="">Media Query</a></li>
+                <li><a href="./lesson 01/holygrail.html">Holy Layout</a></li>
+                <li><a href="./lesson02/design-principles.html">Design Principles</a></li>
+                <li><a href="http://127.0.0.1:5500/lesson02/media-query.html">Media Query</a></li>
                 <li><a href="https://codepen.io/TraceH2/pen/poqVqaR">Code Pen Activity</a></li>
                 <li><a href="https://codepen.io/TraceH2/pen/LYMmqMp">Responsive | Hamburger</a></li>
                 <li><a href=""></a></li>
@@ -70,13 +63,19 @@
             <div></div><!--for placeholders about weather, # visits to page etc-->
         </section>
     </main>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d102076.36001637117!2d174.733618!3d-36.916984!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4662d1f2f9df%3A0x500ef6143a2e750!2sMount%20Roskill%2C%20Auckland!5e0!3m2!1sen!2snz!4v1695938381959!5m2!1sen!2snz"
+        width="620" height="480" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 
     <footer>
         <p>&copy; <span class="date"></span> | Tracy Haehae | Aotearoa/New Zealand</p>
-        <img src="images/resized2_flag.jpg" alt="blue flag">
+        <img class="flag" src="images/resized2_flag.jpg" alt="blue flag">
         <p id="lastModified"> Last Modified <span class="modify"></span></p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 
 </html>
