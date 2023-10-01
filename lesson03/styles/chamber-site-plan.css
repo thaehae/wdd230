@@ -1,0 +1,30 @@
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+    color: #002627;
+    font-family: 'Oxygen', serif;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    font-size: large;
+}
+
+h1,
+h2,
+h3 {
+    color: #002627;
+    font-family: 'Oxygen', serif;
+}
+
+p {
+    color: #10c297;
+    font-family: 'Open Sans', serif;
+}
+
+hr {
+    border-style: double;
+}
