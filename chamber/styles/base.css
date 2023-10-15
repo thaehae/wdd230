@@ -34,6 +34,40 @@ main section {
     text-align: center;
 }
 
+input {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #002627;
+    transition: background .3s;
+    outline: black;
+    cursor: pointer;
+}
+
+input::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: #10C297;
+    transition: left .3s;
+}
+
+input:checked {
+    background-color: #804600;
+}
+
+input:checked::after {
+    left: 70%;
+}
+
+
+
 /*.buy,
 .join {
     background-color: rgb(127, 204, 255);
@@ -207,6 +241,15 @@ nav {
     max-width: 700px;
     margin: 1rem auto;
 }
+
+
+/*#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+}*/
 
 /* small view navigation */
 #menu {
