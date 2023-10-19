@@ -53,6 +53,15 @@ iframe {
     color: #1b133e;
 }
 
+.hero picture {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto
+}
+
 
 h3 {
     color: #FAFF81;
