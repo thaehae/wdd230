@@ -12,12 +12,13 @@ header {
 }
 
 .profile {
-    padding: 2rem;
-    justify-content: left;
+    justify-content: center;
+    margin: 1rem;
+    padding: 4rem;
 }
 
 h1 {
-    margin: 1rem auto;
+    margin: 4rem auto;
     padding: 4rem;
     text-align: center;
 }
@@ -60,6 +61,31 @@ iframe {
 .hero img {
     width: 100%;
     height: auto
+}
+
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: 300px;
+}
+
+.herolabel {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    background: radial-gradient(#ffffff, rgb(80, 35, 204));
+    border: 1px solid rgba(0, 0, 0, .75);
+    padding: .1rem;
+
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Oxygen', serif;
 }
 
 
