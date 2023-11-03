@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html FORM</title>
+    <meta name="Tracy Mahuenoa Haehae" content="WDD 230 - Web Frontend Development, Form build">
+    <!--<link rel="stylesheet" href="styles/normalize.css">-->
+    <link rel="stylesheet" href="styles/form.css">
+    <meta name="description" content="Form build activity">
+    <meta name="author" content="Tracy Mahuenoa Haehae">
+</head>
+
+<body>
+    <header>
+        <img class="profile" src="images/hero-tracy.webp" alt="girl in pink">
+        <h1>Tracy M. Haehae</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="#" target=”_blank” class="active">Home</a></li>
+            <li><a href="chamber/siteplan.html" target=”_blank”>Site Plan</a></li>
+            <li><a href="chamber/index.html" target=”_blank”>Chamber</a></li>
+            <li><a href="https://www.byui.edu/" target=”_blank”>BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/2-tim/1?lang=eng#p7"
+                    target=”_blank”>Scripture</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Username</legend>
+                <label class="top">Name* <input type="text" id="name" name="name" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Password</legend>
+                <label class="top">Password <input type="password" id="pwd" name="pwd" pattern=".{8,}"
+                        title="Eight or more characters" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Password repeated for Confirmation</legend>
+                <label class="top">Confirm Password* <input type="text" id="cpwd" name="password" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Email</legend>
+                <label class="top">Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Page Rating</legend>
+                <label class="top">Range* <input type="tel" id="range" name="Page Rating" required></label>
+            </fieldset>
+            <input type="submit" value="Send My Request" class="submitBot">
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy; <span class="date"></span> | Tracy Haehae | Aotearoa/New Zealand</p>
+        <img class="flag" src="images/nz-flag.webp" alt="blue flag" loading="Lazy" width="100" height="50">
+        <p id="lastModified"> Last Modified <span class="modify"></span></p>
+    </footer>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>
