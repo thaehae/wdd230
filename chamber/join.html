@@ -13,10 +13,10 @@
     <link rel="icon" href="favicon-chamber.ico">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen:wght@700&display=swap"
         rel="stylesheet">
-    <meta name="description" content="Waiheke Island Chamber of commerce for businesses site">
+    <meta name="description" content="Waiheke Island Chamber of commerce application form page">
     <meta name="author" content="Tracy Mahuenoa Haehae">
-    <meta property="og:title" content="Waiheke Chamber of Commerce advocating for local businesses">
-    <meta property="og:type" content="Waiheke Chamber of Commerce - Business will thrive">
+    <meta property="og:title" content="Waiheke Chamber of Commerce application form page">
+    <meta property="og:type" content="Website">
 
     <meta property="og:image" content="https://www.tourismwaiheke.co.nz/play/diving-and-snorkeling/">
     <meta property="og:url" content="https://www.tourismwaiheke.co.nz/">
@@ -46,7 +46,7 @@
             <fieldset>
                 <legend>Applicant Information</legend>
                 <label class="top">First Name* <input type="text" id="name" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" id="name" name="lname" required></label>
+                <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
                 <label class="top">Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com"
                         required></label>
                 <label class="top">Phone* <input type="tel" id="phone" name="phone" placeholder="1235551234"
@@ -56,19 +56,28 @@
                 <legend>Organisation Information</legend>
                 <label class="top">Position <input type="text" id="title" name="title" pattern=".{7,}"
                         title="Seven or more characters"></label>
-                <label class="top">Organisation Name* <input type="text" id="business" name="business" required></label>
+                <label class="top">Organisation Name* <input type="text" id="Obusiness" name="business"
+                        required></label>
                 <label class="top">Organisation description* <input type="text" id="business" name="business"></label>
                 <label class="top">Website <input type="url" id="web" name="url" placeholder="http://"></label>
             </fieldset>
             <fieldset>
-                <legend>Membership Level</legend>
+                <legend>Membership Levels</legend>
                 <div>Choose one</div>
                 <label class="med"><input type="radio" name="membership" value="NPO"> NP Membership is for non
                     profit
-                    organizations and there is no fee</label>
+                    organizations</label>
                 <label class="med"><input type="radio" name="membership" value="Bronze"> Bronze Membership</label>
                 <label class="med"><input type="radio" name="membership" value="Silver"> Silver Membership</label>
                 <label class="med"><input type="radio" name="membership" value="Gold"> Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Description</legend>
+                <textarea>NP Membership - There is no fee</textarea>
+                <textarea>Bronze - $99 annually for membership only</textarea>
+                <textarea>Silver - $199 annually includes free subscription to quarterly magazine, quarterly spotlight on website, some discounts</textarea>
+                <textarea>Gold - $350 annually includes free business training quartetrly, monthly spotlights on website, discounts to special events </textarea>
+
             </fieldset>
             <!--timestamp yet to do- see last week local storage plus JS-->
             <input type="submit" value="Apply to be a member" class="bottom">
