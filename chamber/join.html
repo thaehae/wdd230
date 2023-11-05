@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiheke Chamber of Commerce</title>
+    <meta name="Tracy Mahuenoa Haehae" content="A business site for Chamber of Commerce for Waiheke Island">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon-chamber.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen:wght@700&display=swap"
+        rel="stylesheet">
+    <meta name="description" content="Waiheke Island Chamber of commerce for businesses site">
+    <meta name="author" content="Tracy Mahuenoa Haehae">
+    <meta property="og:title" content="Waiheke Chamber of Commerce advocating for local businesses">
+    <meta property="og:type" content="Waiheke Chamber of Commerce - Business will thrive">
+
+    <meta property="og:image" content="https://www.tourismwaiheke.co.nz/play/diving-and-snorkeling/">
+    <meta property="og:url" content="https://www.tourismwaiheke.co.nz/">
+</head>
+
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.webp" alt="circle and words">
+        </a>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+        <div id="mode">
+            <input type="checkbox">
+        </div>
+    </header>
+    <main>
+        <h1>Membership Application</h1>
+        <form method="get" action="thank-you.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" id="name" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" id="name" name="lname" required></label>
+                <label class="top">Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+                <label class="top">Phone* <input type="tel" id="phone" name="phone" placeholder="1235551234"
+                        required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Organisation Information</legend>
+                <label class="top">Position <input type="text" id="title" name="title" pattern=".{7,}"
+                        title="Seven or more characters"></label>
+                <label class="top">Organisation Name* <input type="text" id="business" name="business" required></label>
+                <label class="top">Organisation description* <input type="text" id="business" name="business"></label>
+                <label class="top">Website <input type="url" id="web" name="url" placeholder="http://"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <div>Choose one</div>
+                <label class="med"><input type="radio" name="membership" value="NPO"> NP Membership is for non
+                    profit
+                    organizations and there is no fee</label>
+                <label class="med"><input type="radio" name="membership" value="Bronze"> Bronze Membership</label>
+                <label class="med"><input type="radio" name="membership" value="Silver"> Silver Membership</label>
+                <label class="med"><input type="radio" name="membership" value="Gold"> Gold Membership</label>
+            </fieldset>
+            <!--timestamp yet to do- see last week local storage plus JS-->
+            <input type="submit" value="Apply to be a member" class="bottom">
+        </form>
+    </main>
+    <footer>
+        <p>Waiheke Business Chamber | 55 Oneroa Rd, Waiheke Island | contact: 0800777666 | email: waihekechamber.nz
+        </p>
+        <p>&copy; Tracy Haehae | WDD230 Chamber Project<span class="date"></span></p>
+        <p id="lastModified"> Last Modified <span class="modify"></span></p>
+        <div>
+            <a href="http://facebook.com" target="_blank">
+                <img src="images/facebook.webp" alt="facebook icon"></a>
+            <a href="http://instagram.com" target="_blank">
+                <img src="images/instagram.webp" alt="facebook icon"></a>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/toggle.js"></script>
+    <!--web component javascript here -->
+</body>
+
+</html>
