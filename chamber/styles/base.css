@@ -1,33 +1,36 @@
 /*@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen:wght@700&display=swap");*/
 
+/*-------- css for Chamber Home page--------*/
+
 #content {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
 nav a {
     text-align: center;
-    color: #FFFFFF;
+    color: #999;
     text-decoration: none;
     padding: 35px;
 }
 
 p {
-    color: #FFFFFF;
+    color: #999;
 }
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #hero-msg h1 {
     text-align: center;
+    color: #002627;
 }
 
-#hero-msg h4 {
+#hero-msg h3 {
     text-align: center;
-    color: #FFFFFF;
+    color: #005500;
 }
 
 main section {
@@ -178,10 +181,10 @@ footer {
     color: #FFFFFF;
     font-size: .8em;
     padding-bottom: 15px;
-}
+}*/
 
 footer a {
-    color: #002627;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -189,7 +192,7 @@ footer p a:hover {
     color: #804600;
     font-size: 1.2em;
     text-decoration: underline;
-}*/
+}
 
 .logo,
 .icon {
@@ -344,6 +347,7 @@ nav {
     font-weight: 700;
 }
 
+/*-------- toggle switch --------*/
 /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
 .open li {
     display: block;
@@ -386,10 +390,10 @@ nav {
     }
 }
 
-/* css for discover page*/
-/*h1 {
+/* --------- css for DISCOVERY page----------*/
+h1 {
     text-align: center;
-    color: blueviolet;
+    color: #804600;
     font-family: 'Lucida Sans', sans-serif;
 }
 
@@ -435,4 +439,172 @@ p {
 
     justify-content: space-evenly;
 
+}
+
+/*-------- css for JOIN page--------*/
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*----------- BODY --------------*/
+body {
+    background-color: whitesmoke;
+}
+
+
+/*----------- HEADER --------------*/
+/*header {
+    padding: .5rem 2%;
+    background-color: #ddd;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+    font-weight: normal;
 }*/
+
+/*----------- NAVIGATION --------------*/
+/*nav {
+    background-color: #666;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+}
+
+nav ul li a {
+    display: block;
+    background-color: #444;
+    color: #eee;
+    border-left: 1px solid #777;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+nav ul li:first-child a {
+    border-left: none;
+}
+
+nav ul li a:hover {
+    background-color: #eee;
+    color: #333;
+}
+
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}*/
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+/*----------- FORM --------------*/
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #002627;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #002627;
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input,
+form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.med {
+    display: block;
+    padding: .10rem 0;
+    color: #002627;
+}
+
+form input.bottom {
+    border: none;
+    background-color: #005500;
+    color: white;
+    border-radius: 2rem;
+    padding: .20rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: #005500 6px;
+}
+
+
+/*----------- FOOTER --------------*/
+/*footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+}*/
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----thank-you------*/
+
+main p {
+    color: #005500;
+    text-align: center;
+}
