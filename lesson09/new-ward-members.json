@@ -24,7 +24,7 @@
     {
         "family_name": "faalogo",
         "date_family_moved_into_ward": "21.8.2019",
-        "number_in_the_family": 5,
+        "number_in_the_family": 4,
         "visited_by_bishopric": true,
         "individual_family_members": [
             "david",
@@ -35,7 +35,7 @@
     {
         "family_name": "faalogo",
         "date_family_moved_into_ward": "17.11.2018",
-        "number_in_the_family": 5,
+        "number_in_the_family": 4,
         "visited_by_bishopric": true,
         "individual_family_members": [
             "rebecca",
@@ -46,7 +46,7 @@
     {
         "family_name": "pritchard",
         "date_family_moved_into_ward": "14.10.2023",
-        "number_in_the_family": 5,
+        "number_in_the_family": 3,
         "visited_by_bishopric": true,
         "individual_family_members": [
             "jazz",
@@ -57,7 +57,7 @@
     {
         "family_name": "pritchard",
         "date_family_moved_into_ward": "14.10.2023",
-        "number_in_the_family": 5,
+        "number_in_the_family": 3,
         "visited_by_bishopric": true,
         "individual_family_members": [
             "tailer",
@@ -68,7 +68,7 @@
     {
         "family_name": "pritchard",
         "date_family_moved_into_ward": "14.10.2023",
-        "number_in_the_family": 5,
+        "number_in_the_family": 3,
         "visited_by_bishopric": true,
         "individual_family_members": [
             "luka",
@@ -79,7 +79,7 @@
     {
         "family_name": "faalogo",
         "date_family_moved_into_ward": "17.11.2018",
-        "number_in_the_family": 5,
+        "number_in_the_family": 4,
         "visited_by_bishopric": true,
         "individual_family_members": [
             "Olo",
@@ -90,7 +90,7 @@
     {
         "family_name": "faalogo",
         "date_family_moved_into_ward": "29.10.2021",
-        "number_in_the_family": 5,
+        "number_in_the_family": 4,
         "visited_by_bishopric": true,
         "individual_family_members": [
             "lina",
