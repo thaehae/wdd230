@@ -1,0 +1,134 @@
+[
+    {
+        "family_name": "Haehae",
+        "date_family_moved_into_ward": "9.9.1999",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            "tracy",
+            "female",
+            "29.1.1968"
+        ]
+    },
+    {
+        "family_name": "Smith",
+        "date_family_moved_into_ward": "9.9.1999",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": false,
+        "individual_family_members": [
+            "helaman",
+            "male",
+            "22.10.1992"
+        ]
+    },
+    {
+        "family_name": "faalogo",
+        "date_family_moved_into_ward": "21.8.2019",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            "david",
+            "male",
+            "21.8.2019"
+        ]
+    },
+    {
+        "family_name": "faalogo",
+        "date_family_moved_into_ward": "17.11.2018",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            "rebecca",
+            "female",
+            "4.6.1996"
+        ]
+    },
+    {
+        "family_name": "pritchard",
+        "date_family_moved_into_ward": "14.10.2023",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            "jazz",
+            "female",
+            "13.12.1997"
+        ]
+    },
+    {
+        "family_name": "pritchard",
+        "date_family_moved_into_ward": "14.10.2023",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            "tailer",
+            "male",
+            "6.2.1997"
+        ]
+    },
+    {
+        "family_name": "pritchard",
+        "date_family_moved_into_ward": "14.10.2023",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            "luka",
+            "male",
+            "22.12.2020"
+        ]
+    },
+    {
+        "family_name": "faalogo",
+        "date_family_moved_into_ward": "17.11.2018",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            "Olo",
+            "male",
+            "6.2.89"
+        ]
+    },
+    {
+        "family_name": "faalogo",
+        "date_family_moved_into_ward": "29.10.2021",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            "lina",
+            "female",
+            "29.10.2021"
+        ]
+    },
+    {
+        "family_name": "smith",
+        "date_family_moved_into_ward": "9.9.1999",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": false,
+        "individual_family_members": [
+            "shaden",
+            "male",
+            "31.1.1998"
+        ]
+    },
+    {
+        "family_name": "Haehae",
+        "date_family_moved_into_ward": "9.9.1988",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            "hana",
+            "female",
+            "17.7.1938"
+        ]
+    },
+    {
+        "family_name": "Haehae",
+        "date_family_moved_into_ward": "9.9.1988",
+        "number_in_the_family": 5,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            "steve",
+            "male",
+            "16.10.1966"
+        ]
+    }
+]
