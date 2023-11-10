@@ -109,11 +109,11 @@
                 },
                 {
                     "url": "https://thaehae.github.io/wdd230/lesson09/prophets.html",
-                    "title": ""
+                    "title": "Fetch"
                 },
                 {
-                    "url": "https://thaehae.github.io/wdd230/lesson09/",
-                    "title": ""
+                    "url": "https://thaehae.github.io/wdd230/data/links.json",
+                    "title": "JSON Activity"
                 }
             ]
         },
