@@ -30,9 +30,10 @@ const displayProphets = (prophets) => {
 
         // Append the section(card) with the created elements
         card.appendChild(fullName); //fill in the blank
-        card.appendChild(portrait);
         card.appendChild(birthDate);
         card.appendChild(birthPlace);
+        card.appendChild(portrait);
+
 
         cards.appendChild(card);
     }); // end of arrow function and forEach loop
