@@ -11,15 +11,16 @@ async function getLinks(linksURL) {
 const displayLinks = (links) => {
     links.forEach((link) => {
 
-        let li = document.createElement('section');
+        let lessonLink = document.createElement('section');
+        let weeks = document.createElement('a');
 
-        li.textContent = `lesson: ${link.url} ${link.title}`;
+        lessonLink.textContent = `lesson: ${link.url}`;
+        weeks.textContent = `lesson: ${link.title} `;
 
         li.setAttribute(`${link.url} ${link.title} `);
 
-        li.appendChild(li);
-
-        li.appendChild(linksURL);
+        li.appendChild(lessonLink);
+        li.appendChild(weeks);
     }); // end of arrow function and forEach loop
 }
 getLinks(linksURL);
