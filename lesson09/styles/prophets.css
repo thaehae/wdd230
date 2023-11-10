@@ -2,6 +2,7 @@ body {
     background-color: azure;
     text-align: center;
     color: blue;
+    font-family: Verdana, sans-serif;
 }
 
 h1 {
@@ -11,4 +12,11 @@ h1 {
 
 .cards {
     background-color: beige;
+}
+
+footer {
+    font-family: Verdana, sans-serif;
+    font-size: large;
+    color: black;
+
 }
