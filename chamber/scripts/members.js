@@ -4,7 +4,7 @@ const bizcards = document.querySelector('#bizcards');
 async function getMemberData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    //console.table(data.prophets); // temporary testing of data retreival
+    //console.table(data.members); // temporary testing of data retreival
     displayMembers(data.members); // note that we reference the prophets array of the JSON data object, not just the object
 }
 
