@@ -22,15 +22,15 @@ const displayMembers = (members) => {
         let bizidNumber = document.createElement('p');
 
 
-        bizName.textContent = ` 🌏${bizcard.business_name} `;
-        bizAddress.textContent = `🏡 ${bizcard.address}`;
-        bizPhone.textContent = `☎ ${bizcard.phone}`;
-        bizEmail.textContent = `💻 ${bizcard.email}`;
-        bizWebsite.textContent = `📧 ${bizcard.website}`;
-        bizmLevel.textContent = `🥇 ${bizcard.membership_level}`;
-        bizidNumber = `🛂 ${bizcard.ID}`;
-        portrait.setAttribute('src', bizcard.imageurl);
-        portrait.setAttribute('alt', `Portrait of ${bizcard.bizName}`);
+        bizName.textContent = ` 🌏${member.business_name} `;
+        bizAddress.textContent = `🏡 ${member.address}`;
+        bizPhone.textContent = `☎ ${member.phone}`;
+        bizEmail.textContent = `💻 ${member.email}`;
+        bizWebsite.textContent = `📧 ${member.website}`;
+        bizmLevel.textContent = `🥇 ${member.membership_level}`;
+        bizidNumber = `🛂 ${member.ID}`;
+        portrait.setAttribute('src', member.imageurl);
+        portrait.setAttribute('alt', `Portrait of ${member.bizName}`);
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '340');
         portrait.setAttribute('height', '440');
@@ -43,9 +43,6 @@ const displayMembers = (members) => {
         bizcard.appendChild(bizmLevel);
         bizcard.appendChild(bizidNumber);
         bizcard.appendChild(portrait);
-
-
-
         bizcards.appendChild(bizcard);
     }); // end of arrow function and forEach loop
 }
