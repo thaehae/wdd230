@@ -1,0 +1,124 @@
+{
+    "members": [
+        {
+            "business_name": "Waiheke Living",
+            "address": "102 Ostend Road, Ostend, Auckland, New Zealand",
+            "phone": "09 372 7643",
+            "email": "accounts@waihekeliving.co.nz",
+            "website": "https://www.waihekeliving.co.nz",
+            "membership_level": "Bronze",
+            "ID": 104,
+            "imageurl": ""
+        },
+        {
+            "business_name": "Waiheke Weekender",
+            "address": "118 Oceanview Road, Oneroa, Auckland, New Zealand",
+            "phone": "09 372 5055",
+            "email": "sales@waihekegulfnews.co.nz",
+            "website": "https://waihekegulfnews.co.nz",
+            "membership_level": "Bronze",
+            "ID": 104,
+            "imageurl": ""
+        },
+        {
+            "business_name": "Casita Miro",
+            "address": "3 Brown Road, Waiheke",
+            "phone": "09 372 7854",
+            "email": "cmenquiries@outlook.com",
+            "website": "https://www.casitamiro.co.nz/",
+            "membership_level": "Silver",
+            "ID": 367,
+            "imageurl": ""
+        },
+        {
+            "business_name": "HQ Landscaping & Construction",
+            "address": "Waiheke Island, Auckland, New Zealand",
+            "phone": "021 049 0767",
+            "email": "hqwaiheke@gmail.com",
+            "website": "",
+            "membership_level": "Bronze",
+            "ID": 186,
+            "imageurl": ""
+        },
+        {
+            "business_name": "Harcourts Real Estate",
+            "address": "33 Palm Beach, Waiheke",
+            "phone": "09 372 3688",
+            "email": "karen.mcmahon@harcourts.co.nz",
+            "website": "https://harcourtswaiheke.co.nz",
+            "membership_level": "Gold",
+            "ID": 205,
+            "imageurl": ""
+        },
+        {
+            "business_name": "Gulf Accounts",
+            "address": "4 Blake Street, Surfdale, Auckland 1081, New Zealand",
+            "phone": "09 372 8996",
+            "email": "info@gulfaccountants.co.nz",
+            "website": "https://gulfaccountants.co.nz",
+            "membership_level": "Silver",
+            "ID": 421,
+            "imageurl": ""
+        },
+        {
+            "business_name": "The Heke",
+            "address": "64 Onetangi Road Waiheke Island",
+            "phone": "09 372 0020",
+            "email": "bookings@theheke.co.nz",
+            "website": "https://www.theheke.co.nz/",
+            "membership_level": "Silver",
+            "ID": 339,
+            "imageurl": ""
+        },
+        {
+            "business_name": "Waiheke Marine Solutions Ltd",
+            "address": "Waiheke Island, Auckland, New Zealand",
+            "phone": "0274 735 204",
+            "email": "jgautomarine@gmail.com",
+            "website": " https://www.waihekemarine.co.nz",
+            "membership_level": "Bronze",
+            "ID": 184,
+            "imageurl": ""
+        },
+        {
+            "business_name": "360 Discovery Tours",
+            "address": "Pier 4, 139 Quay Street, Downtown Auckland",
+            "phone": "09 307 8005",
+            "email": "nfo@360discovery.co.nz",
+            "website": "https://www.fullers.co.nz/contact-us/",
+            "membership_level": "Silver",
+            "ID": 10,
+            "imageurl": ""
+        },
+        {
+            "business_name": "Architectural Designs",
+            "address": "Waiheke Island, Auckland, New Zealand",
+            "phone": "027 492 8468",
+            "email": "architecturaldesigns@xtra.co.nz",
+            "website": "https://www.architecturaldesignsnz.com",
+            "membership_level": "Gold",
+            "ID": 271,
+            "imageurl": ""
+        },
+        {
+            "business_name": "Waiheke Specialty Foods",
+            "address": "28 Belgium Street, Ostend",
+            "phone": "0274942405",
+            "email": "info@waihekespecialtyfood.co.nz",
+            "website": "https://www.waihekespecialtyfood.co.nz",
+            "membership_level": "Gold",
+            "ID": 104,
+            "imageurl": ""
+        },
+        {
+            "business_name": "Motu Electrical",
+            "address": "Waiheke Island, Auckland, New Zealand",
+            "phone": "021 632 145",
+            "email": "office@motuelectrical.co.nz",
+            "website": "https://motuelectrical.co.nz/index.html",
+            "membership_level": "Bronze",
+            "ID": 104,
+            "imageurl": "https://waihekegulfnews.co.nz/directory/listing/motu-electrical"
+        }
+    ]
+}
