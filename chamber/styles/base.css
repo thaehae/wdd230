@@ -608,3 +608,21 @@ main p {
     color: #005500;
     text-align: center;
 }
+
+/*-----DIRECTORY CSS ----*/
+
+h1 {
+    color: #005500;
+    border-bottom: 1px solid #eee;
+    text-shadow: 0 0 15px #777;
+    width: 60%;
+}
+
+
+p {
+    margin: 0;
+}
+
+.bizcards {
+    background-color: beige;
+}
