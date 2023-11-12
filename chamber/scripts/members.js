@@ -22,7 +22,7 @@ const displayMembers = (members) => {
         let bizidNumber = document.createElement('p');
 
 
-        bizName.textContent = `${bizcard.business_name} `;
+        bizName.textContent = ` 🌏${bizcard.business_name} `;
         bizAddress.textContent = `🏡 ${bizcard.address}`;
         bizPhone.textContent = `☎ ${bizcard.phone}`;
         bizEmail.textContent = `💻 ${bizcard.email}`;
