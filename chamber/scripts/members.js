@@ -1,15 +1,15 @@
 const baseURL = "https://thaehae.github.io/wdd230/";
-const linksURL = "https://thaehae.github.io/wdd230/data/members.json";
+const url = "https://github.com/thaehae/wdd230/tree/main/chamber/data/members.json";
 const bizcards = document.querySelector('#bizcards');
-async function getMembersData(url) {
+async function getMemberData(url) {
     const response = await fetch(url);
     const data = await response.json();
     //console.table(data.prophets); // temporary testing of data retreival
     displayMembers(data.members); // note that we reference the prophets array of the JSON data object, not just the object
 }
 
-const displayMembers = (bizcards) => {
-    bizcards.forEach((bizcard) => {
+const displayMembers = (members) => {
+    members.forEach((member) => {
         // Create elements to add to the div.bizcards element
         let bizcard = document.createElement('section');
         let bizName = document.createElement('h2');
@@ -50,4 +50,4 @@ const displayMembers = (bizcards) => {
     }); // end of arrow function and forEach loop
 }
 
-getMembersData(url);
+getMemberData(url);
