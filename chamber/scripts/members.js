@@ -1,8 +1,8 @@
 const baseURL = "https://thaehae.github.io/wdd230/";
-const url = "https://github.com/thaehae/wdd230/blob/main/chamber/data/members.js";
+const url = "https://github.com/thaehae/wdd230/blob/main/chamber/data/members.json";
 const bizcards = document.querySelector('#bizcards');
-async function getMemberData(url) {
-    const response = await fetch(url);
+async function getMemberData(baseURL, url) {
+    const response = await fetch(baseURL, url);
     const data = await response.json();
     //console.table(data.members); // temporary testing of data retreival
     displayMembers(data.members); // note that we reference the members array of the JSON data object, not just the object
@@ -22,7 +22,7 @@ const displayMembers = (members) => {
         let bizidNumber = document.createElement('p');
 
 
-        bizName.textContent = ` 🌏${member.business_name} `;
+        bizName.textContent = `🌏${member.business_name} `;
         bizAddress.textContent = `🏡 ${member.address}`;
         bizPhone.textContent = `☎ ${member.phone}`;
         bizEmail.textContent = `💻 ${member.email}`;
@@ -46,5 +46,5 @@ const displayMembers = (members) => {
         bizcards.appendChild(bizcard);
     }); // end of arrow function and forEach loop
 }
-
+getMemberData(baseURL);
 getMemberData(url);
