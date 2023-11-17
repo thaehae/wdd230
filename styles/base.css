@@ -114,6 +114,13 @@ p {
     font-family: 'PT-Serif', serif;
 }
 
+figcaption,
+figure {
+    color: #1d034d;
+    font-family: 'PT-Serif', serif;
+    font-size: large;
+}
+
 .flag {
     margin: 1rem auto;
     justify-content: center;
