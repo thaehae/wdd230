@@ -85,6 +85,13 @@ input:checked::after {
     height: 300px;
 }*/
 
+figcaption,
+figure {
+    color: #1d034d;
+    font-family: 'PT-Serif', serif;
+    font-size: large;
+    text-align: center;
+}
 
 .herolarge {
     position: absolute;
