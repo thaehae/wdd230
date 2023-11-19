@@ -29,7 +29,7 @@ const displayMembers = (members) => {
         bizWebsite.textContent = `📧 ${member.website}`;
         bizmLevel.textContent = `🥇 ${member.membership_level}`;
         bizidNumber = `🛂 ${member.ID}`;
-        portrait.setAttribute('src', member.imageurl);
+        portrait.setAttribute('src', member.imagesurl); //check this
         portrait.setAttribute('alt', `Portrait of ${member.bizName}`);
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '340');
