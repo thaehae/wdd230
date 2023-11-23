@@ -1,8 +1,8 @@
 const baseURL = "https://thaehae.github.io/wdd230/";
 const url = "https://github.com/thaehae/wdd230/blob/main/chamber/data/members.json";
 const bizcards = document.querySelector('#bizcards');
-async function getMemberData(baseURL, url) {
-    const response = await fetch(baseURL, url);
+async function getMemberData(url) {
+    const response = await fetch(url);
     const data = await response.json();
     //console.table(data.members); // temporary testing of data retreival
     displayMembers(data.members); // note that we reference the members array of the JSON data object, not just the object
@@ -29,7 +29,7 @@ const displayMembers = (members) => {
         bizWebsite.textContent = `📧 ${member.website}`;
         bizmLevel.textContent = `🥇 ${member.membership_level}`;
         bizidNumber = `🛂 ${member.ID}`;
-        portrait.setAttribute('src', member.imagesurl); //check this
+        portrait.setAttribute('src', member.imageurl);
         portrait.setAttribute('alt', `Portrait of ${member.bizName}`);
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '340');
@@ -46,5 +46,5 @@ const displayMembers = (members) => {
         bizcards.appendChild(bizcard);
     }); // end of arrow function and forEach loop
 }
-getMemberData(baseURL);
+
 getMemberData(url);
