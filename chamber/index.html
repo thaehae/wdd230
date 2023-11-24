@@ -23,125 +23,148 @@
 </head>
 
 <body>
-    <!--<div id="content">-->
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/logo.webp" alt="circle and words">
-        </a>
-
-        <nav>
-            <button id="menu"></button>
-            <ul class="navigation">
-                <li><a href="index.html" target=”_blank”>Home</a></li>
-                <li><a href="discover.html" target=”_blank”>Discover</a></li>
-                <li><a href="directory.html" target=”_blank”>Directory</a></li>
-                <li><a href="join.html" target=”_blank”>Join</a></li>
-            </ul>
-        </nav>
-        <div id="mode">
-            <input type="checkbox">
-        </div>
-    </header>
-    <!--<h1>Dark Mode Example</h1>-->
-    <main>
-        <div class="hero">
-            <picture>
-                <source srcset="images/hero-pohutukawa-small.webp" media="(max-width: 500px)">
-                <source srcset="images/hero-pohutukawa-medium.webp" media="(max-width: 900px)">
-                <img src="images/hero-pohutukawa-large.webp" width="1115" height="651" alt="red flower and sea">
-            </picture>
-            <div class="herolabel">
-                <p>Welcome Aboard</p>
+    <div id="content">
+        <header>
+            <div class="head-grid">
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="images/hero-logo.webp" alt="circle and words" width="90" height="90">
+                </a>
+                <div id="hero-msg">
+                    <h1>Waiheke Chamber of Commerce</h1>
+                </div>
             </div>
-        </div>
-        <!--<div id="hero">
-            <div id="hero-box">
+
+            <nav>
+                <button id="menu"></button>
+                <ul class="navigation">
+                    <li><a href="index.html" target=”_blank”>Home</a></li>
+                    <li><a href="discover.html" target=”_blank”>Discover</a></li>
+                    <li><a href="directory.html" target=”_blank”>Directory</a></li>
+                    <li><a href="join.html" target=”_blank”>Join</a></li>
+                </ul>
+            </nav>
+            <div id="mode">
+                <input type="checkbox">
+            </div>
+        </header>
+        <!--<h1>Dark Mode Example</h1>-->
+        <main>
+            <div class="hero">
                 <picture>
-                    <source srcset="images/hero-chamber-small.webp" media="(max-width: 500px)">
-                    <source srcset="images/hero-chamber-medium.webp" media="(max-width: 900px)">
-                    <img src="images/hero-chamber-large.webp" alt="lady & two men at a table" width="1280"
-                            height="853">
+                    <source srcset="images/hero-pohutukawa-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/hero-pohutukawa-medium.webp" media="(max-width: 900px)">
+                    <img src="images/hero-pohutukawa-large.webp" width="1280" height="640" alt="red flower and sea">
                 </picture>
+                <div class="herolabel">
+                    <!--<p>Welcome Aboard</p>-->
+                    <h3>Our business is to support your business</h3>
+                </div>
             </div>
-            <div class="herosmall">
-                <p>Small</p>
+            <div class="temperature">
+                <div class="rise">
+                    <p>Temperature - Waiheke Island <span id="current-temp"></span></p>
+                    <figure>
+                        <img id="weather-icon" src="https://openweathermap.org/w/04n.png" alt="Broken clouds icon">
+                        <figcaption>☁ Broken Clouds</figcaption>
+                    </figure>
+                </div>
+                <div class="banner">
+                    <br>
+                    ✂🎀✂🎀
+                    We are celebrating the opening of Waiheke Museum of History & Arts.
+                    The Mayor of Auckland will be in attendance and morning tea will be served afterwards.
+                    Please join us for the ribbon cutting ceremony and presentation. VIPs and
+                    representatives from different businesses, local schools will present
+                    recent art-works as part of this special occasion.
+                    Date: Friday 25 November 2023,
+                    Time: 2pm,
+                    Where: 55 Frost Rd, Onetangi, Waiheke Island 🎀✂🎀✂
+                    <br>
+                </div>
+                <div class="spotlight">
+                    <p>Spotlight Discovery Tours</p>
+                    <p>Fishing spots, Swim with Dolphins, Tours around harbour, 20 different locations, special events,
+                        weddings, night kayak tours, team building and more. Book now www.discover.co.nz</p>
+                    <img src="images/hero-tours.webp" width="175" height="140" alt="boat and bridge">
+                </div>
             </div>
-            <div class=" heromedium">
-                <p>Medium</p>
+            <div class="chamber-grid">
+                <section class="action-card">
+                    <h2>Be a member</h2>
+                    <button>Join</button><!--button with a hover-->
+                </section>
+                <section class="service-card">
+                    <h2>Our Services</h2>
+                    <button>🔗</button><!--button with a hover-->
+                </section>
+                <section class="partners-card">
+                    <h2>Our partners</h2>
+                    <button>🔍</button><!--button with a hover-->
+                </section>
             </div>
-            <div class=" herolarge">
-                    <p>Large</p>
-            </div>-->
+            <div class="news-grid">
+                <div>
+                    <h2>Biz News</h2>
+                </div>
+                <section class="current-card">
+                    <h4>Waiheke real estate</h4>
+                    <p>Office spaces to lease</p>
+                    <img id="current" src="images/biz1.webp" alt="man and woman at table" width="500" height="250">
+                </section>
+                <section class="weather-card">
+                    <h4>Zippyline</h4>
+                    <p>Book online & fly away</p>
+                    <img id="weather" src="images/zip.webp" alt="two people ziplining" width="500" height="250">
+                </section>
+                <section class="events-card">
+                    <h4>POTS R US</h4>
+                    <p> Pottery classes | Book online</p>
+                    <img id="events" src="images/craft.webp" width="500" height="250" alt="pottery and food">
+                </section>
+            </div>
+            <div class="upcoming-grid">
+                <div>
+                    <h2>New Events</h2>
+                </div>
+                <section class="vine-card">
+                    <h4>Waiheke Festival | 27 January 2024</h4>
+                    <p>Jazz bands, Vineyard tours, food stalls. Get your
+                        tickets! </p>
+                    <img id="vine" src="images/Vineyard.webp" width="500" height="250" alt="grape vines in field">
+                </section>
+                <section class="sand-card">
+                    <h4>Palm Beach Fun Day | 2 Dec 2023</h4>
+                    <p>Hosted by Harcouts Real Estate - Competitions & BBQ</p>
+                    <img id="sand" src="images/discover-castle.webp" width="500" height="250"
+                        alt="sand castles and children">
+                </section>
+                <section class="run-card">
+                    <h4>WaiWai Triathlon | 13 January 2024</h4>
+                    <p>Registrations open. All welcome. Sponsored by Osteopathy NZ</p>
+                    <img id="run" src="images/hero-oneroa-large.webp" width="500" height="250" alt="sea and land">
+                </section>
+            </div>
 
-        <div>
-            <section id="hero-msg">
-                <h1>Waiheke Chamber of Commerce</h1>
-                <h3>It's our business to support your business</h3>
-            </section>
-        </div>
-        <div class="chamber-grid">
-            <section class="action-card">
-                <h2>Become a member</h2>
-                <button>Click here</button><!--button with a hover-->
-            </section>
-            <section class="service-card">
-                <h2>Our Services</h2>
-                <button>Click here</button><!--button with a hover-->
-            </section>
-            <section class="partners-card">
-                <h2>Our partners</h2>
-                <button>Click here</button><!--button with a hover-->
-            </section>
-        </div>
-        <div class="news-grid">
-            <section class="current-card"><!--want to make this section a scrolling web component-->
-                <h2>Keeping you current</h2><!--festivals/ tours etc section-->
-                <p>Waiheke real estate | 0800567567</p>
-                <img id="current" src="images/biz1.webp" alt="man and woman at table" width="500" height="250">
-            </section>
-            <section class="weather-card">
-                <h2>Wacky Weather</h2><!--local weather, surf info etc section-->
-                <p>Book online & fly away | zippyline.co.nz</p>
-                <img id="weather" src="images/zip.webp" alt="two people ziplining" width="500" height="250">
-            </section>
-            <section class="events-card">
-                <h2>Whazzup Waiheke</h2>
-                <!--latest events & news,web component with revolving local businesses? or block images & text-->
-                <p>Pottery classes | potsrus@gmail.com</p>
-                <img id="events" src="images/craft.webp" width="500" height="250" alt="pottery and food">
-            </section>
-            <section class="vine-card">
-                <h2>Waiheke Vibes</h2>
-                <p>Book your tour today @ waihekevines.com</p>
-                <img id="vine" src="images/Vineyard.webp" width="500" height="250" alt="grape vines in field">
-            </section>
-        </div>
-        <div>
-            <p>Temperature - Waiheke Island <span id="current-temp"></span></p>
-            <figure>
-                <img id="weather-icon" src="https://openweathermap.org/w/04n.png" alt="Broken clouds icon">
-                <figcaption>☁ Broken Clouds</figcaption>
-            </figure>
-        </div>
-    </main>
-    <footer>
-        <p>Waiheke Business Chamber | 55 Oneroa Rd, Waiheke Island</p>
-        <p>contact: 0800777666 | email: waihekechamber.nz</p>
-        <p>&copy; Tracy Haehae | WDD230 Chamber Project<span class="date"></span></p>
-        <p id="lastModified"> Last Modified <span class="modify"></span></p>
-        <div><a href="http://facebook.com" target="_blank">
-                <img src="images/facebook.webp" alt="facebook icon"></a>
-            <a href="http://instagram.com" target="_blank">
-                <img src="images/instagram-icon.webp" alt="instagram icon"></a>
-        </div>
+        </main>
+        <footer>
+            <p>Waiheke Business Chamber | 55 Oneroa Rd Waiheke Island</p>
+            <p>contact: 0800777666 | email: waihekechamber.nz</p>
+            <p>&copy; Tracy Haehae | WDD230 Chamber Project<span class="date"></span></p>
+            <p id="lastModified"> Last Modified <span class="modify"></span></p>
+            <div class="social">
+                <a href="http://facebook.com" target="_blank">
+                    <img src="images/facebook.webp" alt="facebook icon" width="64" height="64"></a>
+                <a href="http://instagram.com" target="_blank">
+                    <img src="images/instagram-icon.webp" alt="instagram icon" width="64" height="64"></a>
+            </div>
 
-    </footer>
-    <script src="scripts/getdates.js"></script>
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/toggle.js"></script>
-    <script src="scripts/waihekeweather.js"></script>
-    <!--web component javascript here -->
-    <!--</div>-->
+        </footer>
+        <script src="scripts/getdates.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/toggle.js"></script>
+        <script src="scripts/waihekeweather.js"></script>
+        <!--web component javascript here -->
+    </div>
 </body>
 
 </html>
