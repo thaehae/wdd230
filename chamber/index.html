@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -11,13 +11,11 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon-chamber.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen:wght@700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oxygen:wght@700&display=swap" rel="stylesheet">
     <meta name="description" content="Waiheke Island Chamber of commerce for businesses site">
     <meta name="author" content="Tracy Mahuenoa Haehae">
     <meta property="og:title" content="Waiheke Chamber of Commerce advocating for local businesses">
     <meta property="og:type" content="Waiheke Chamber of Commerce is a website for businesses">
-
     <meta property="og:image" content="https://www.tourismwaiheke.co.nz/play/diving-and-snorkeling/">
     <meta property="og:url" content="https://www.tourismwaiheke.co.nz/">
 </head>
@@ -27,13 +25,10 @@
         <header>
             <div class="head-grid">
                 <a id="logo_link" href="index.html">
-                    <img class="logo" src="images/hero-logo.webp" alt="circle and words" width="90" height="90">
+                    <img class="logo" src="images/new-logo.webp" alt="green with house and letters" width="300"
+                        height="250">
                 </a>
-                <div id="hero-msg">
-                    <h1>Waiheke Chamber of Commerce</h1>
-                </div>
             </div>
-
             <nav>
                 <button id="menu"></button>
                 <ul class="navigation">
@@ -49,16 +44,18 @@
         </header>
         <!--<h1>Dark Mode Example</h1>-->
         <main>
+            <picture>
+                <source srcset="images/hero-pohutukawa-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-pohutukawa-medium.webp" media="(max-width: 900px)">
+                <img src="images/hero-pohutukawa-large.webp" width="1280" height="640" alt="red flower and sea">
+            </picture>
             <div class="hero">
-                <picture>
-                    <source srcset="images/hero-pohutukawa-small.webp" media="(max-width: 500px)">
-                    <source srcset="images/hero-pohutukawa-medium.webp" media="(max-width: 900px)">
-                    <img src="images/hero-pohutukawa-large.webp" width="1280" height="640" alt="red flower and sea">
-                </picture>
                 <div class="herolabel">
-                    <!--<p>Welcome Aboard</p>-->
-                    <h3>Our business is to support your business</h3>
+                    <p>It's our business to support your business</p>
                 </div>
+            </div>
+            <div id="hero-msg">
+                <h1>Waiheke Chamber of Commerce</h1>
             </div>
             <div class="temperature">
                 <div class="rise">
@@ -68,52 +65,102 @@
                         <figcaption>☁ Broken Clouds</figcaption>
                     </figure>
                 </div>
+                <div class="forecast">
+                    <p>3 day forecast - Waiheke Island <span id="forcast-temp"></span></p>
+                    <figure>
+                        <img id="forecast-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
                 <div class="banner">
                     <br>
-                    ✂🎀✂🎀
-                    We are celebrating the opening of Waiheke Museum of History & Arts.
+                    🎀✂ RIBBON CUTTING CEREMONY🎀
+                    We are celebrating the opening of Waiheke Museum of History & Arts .
                     The Mayor of Auckland will be in attendance and morning tea will be served afterwards.
                     Please join us for the ribbon cutting ceremony and presentation. VIPs and
                     representatives from different businesses, local schools will present
                     recent art-works as part of this special occasion.
-                    Date: Friday 25 November 2023,
+                    Date: Friday 1st December 2023,
                     Time: 2pm,
-                    Where: 55 Frost Rd, Onetangi, Waiheke Island 🎀✂🎀✂
+                    Where: 55 Frost Rd, Onetangi 🎀Waiheke Island ✂🎀
+
                     <br>
-                </div>
-                <div class="spotlight">
-                    <p>Spotlight Discovery Tours</p>
-                    <p>Fishing spots, Swim with Dolphins, Tours around harbour, 20 different locations, special events,
-                        weddings, night kayak tours, team building and more. Book now www.discover.co.nz</p>
-                    <img src="images/hero-tours.webp" width="175" height="140" alt="boat and bridge">
+                    <img src="images/hero-museum.webp" alt="grey building with grass" width="175" height="140">
                 </div>
             </div>
             <div class="chamber-grid">
                 <section class="action-card">
-                    <h2>Be a member</h2>
-                    <button>Join</button><!--button with a hover-->
+                    <h2>Join Us</h2>
+                    <div class="button-box">
+                        <a class="join" href="join.html">Join us</a>
+                    </div>
                 </section>
                 <section class="service-card">
                     <h2>Our Services</h2>
-                    <button>🔗</button><!--button with a hover-->
+                    <div class="button-box">
+                        <a class="cool" href="partners.html">🔗</a>
+                    </div>
                 </section>
                 <section class="partners-card">
-                    <h2>Our partners</h2>
-                    <button>🔍</button><!--button with a hover-->
+                    <h2>Our Partners</h2>
+                    <div class="button-box">
+                        <a class="point" href="partners.html">👆</a>
+                    </div>
                 </section>
             </div>
-            <div class="news-grid">
-                <div>
-                    <h2>Biz News</h2>
+            <h2>Spotlight</h2>
+            <div class="spotlight">
+                <div class="discovery">
+                    <h4>Discovery Tours🥈</h4>
+                    <p>Fishing spots, swim with dolphins, tours around harbour, 20 different locations, special
+                        events, wedding & anniversary functions, night kayak tours, team building and more!</p>
+                    <p>Book now 09 372 6025</p>
+                    <p>email:info@discovery.co.nz</p>
+                    <img src="images/hero-tours.webp" width="175" height="140" alt="boat and bridge">
+                    <p>www.discovery.co.nz.</p>
                 </div>
+                <div class="living">
+                    <h4>Waiheke Living & Giving🥇</h4>
+                    <p>For stunning gifts for christmas and all your homeware, major brands and locally sourced
+                        furnitures. Come see in store and meet their wonderful staff ready to help you!</p>
+                    <p>Contact
+                        09 309 9643</p>
+                    <p>email:aaron@waihekeliving.co.nz</p>
+
+                    <img src="images/hero-living.webp" width="175" height="140" alt="green card">
+                    <p>www.waihekelivinggiving.co.nz</p>
+                </div>
+                <div class="waiwai">
+                    <h4>WaiWai Specialty Foods🥉</h4>
+                    <p>Mouthwatering! WaiWai SF specialises in all your culinary desires, holiday & special events,
+                        cafe
+                        style and catering, bulk foods on order, fresh & organic!</p>
+                    <p>Contact 0274942405</p>
+                    <p>email:info@waiwaispecialfoods.co.nz</p>
+                    <img src="images/hero-waiwai.webp" width="175" height="140" alt="grey card">
+                    <p>www.waiwaispecialfoods.co.nz</p>
+                </div>
+                <div class="land">
+                    <h4>HP Landscaping&Construction🥉</h4>
+                    <p>Have you seen the new Waiheke Museum of History & Arts building?
+                        HP architects with the best materials, crafted & designed this beautiful and unique
+                        work of art!</p>
+                    <p>Contact 021 049 0767</p>
+                    <p>email:hpwaiheke@gmail.com</p>
+                    <img src="images/hero-landscape.webp" width="175" height="140" alt="black card">
+                    <p>www.hplandandconstruction.com</p>
+                </div>
+            </div>
+            <div class="news-grid">
+                <h2>Welcome new biz</h2>
                 <section class="current-card">
-                    <h4>Waiheke real estate</h4>
+                    <h4>Waiheke Real Estate</h4>
                     <p>Office spaces to lease</p>
                     <img id="current" src="images/biz1.webp" alt="man and woman at table" width="500" height="250">
                 </section>
                 <section class="weather-card">
                     <h4>Zippyline</h4>
-                    <p>Book online & fly away</p>
+                    <p>Book now & fly away</p>
                     <img id="weather" src="images/zip.webp" alt="two people ziplining" width="500" height="250">
                 </section>
                 <section class="events-card">
@@ -123,31 +170,29 @@
                 </section>
             </div>
             <div class="upcoming-grid">
-                <div>
-                    <h2>New Events</h2>
-                </div>
+                <h2>Events coming up</h2>
                 <section class="vine-card">
-                    <h4>Waiheke Festival | 27 January 2024</h4>
-                    <p>Jazz bands, Vineyard tours, food stalls. Get your
+                    <h4>Waiheke Festival | 6 January 2024</h4>
+                    <p>Jazz bands, vineyard tours, food stalls. Get your
                         tickets! </p>
                     <img id="vine" src="images/Vineyard.webp" width="500" height="250" alt="grape vines in field">
                 </section>
                 <section class="sand-card">
-                    <h4>Palm Beach Fun Day | 2 Dec 2023</h4>
+                    <h4>Palm Beach Fun Day | 27 January 2024</h4>
                     <p>Hosted by Harcouts Real Estate - Competitions & BBQ</p>
                     <img id="sand" src="images/discover-castle.webp" width="500" height="250"
                         alt="sand castles and children">
                 </section>
                 <section class="run-card">
-                    <h4>WaiWai Triathlon | 13 January 2024</h4>
+                    <h4>WaiWai Triathlon | 3 February 2024</h4>
                     <p>Registrations open. All welcome. Sponsored by Osteopathy NZ</p>
                     <img id="run" src="images/hero-oneroa-large.webp" width="500" height="250" alt="sea and land">
                 </section>
             </div>
-
         </main>
         <footer>
-            <p>Waiheke Business Chamber | 55 Oneroa Rd Waiheke Island</p>
+            <p>Waiheke Business Chamber | 55 Oneroa Rd Waiheke Island
+            </p>
             <p>contact: 0800777666 | email: waihekechamber.nz</p>
             <p>&copy; Tracy Haehae | WDD230 Chamber Project<span class="date"></span></p>
             <p id="lastModified"> Last Modified <span class="modify"></span></p>

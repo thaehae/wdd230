@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon-chamber.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen:wght@700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oxygen:wght@700&display=swap" rel="stylesheet">
     <meta name="description" content="Waiheke Island Chamber of commerce application form page">
     <meta name="author" content="Tracy Mahuenoa Haehae">
     <meta property="og:title" content="Waiheke Chamber of Commerce application form page">
@@ -24,20 +23,19 @@
 
 <body>
     <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/hero-logo.webp" alt="circle and words" width="90" height="90">
-        </a>
-        <div id="hero-msg">
-            <!--<h1>Waiheke Chamber of Commerce</h1>-->
-            <h3>It's our business to support your business</h3>
+        <div class="head-grid">
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/new-logo.webp" alt="green with house and letters" width="300"
+                    height="250">
+            </a>
         </div>
         <nav>
             <button id="menu"></button>
             <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="index.html" target=”_blank”>Home</a></li>
+                <li><a href="discover.html" target=”_blank”>Discover</a></li>
+                <li><a href="directory.html" target=”_blank”>Directory</a></li>
+                <li><a href="join.html" target=”_blank”>Join</a></li>
             </ul>
         </nav>
         <div id="mode">
@@ -75,19 +73,22 @@
                 <label class="med"><input type="radio" name="membership" value="Silver"> Silver Membership</label>
                 <label class="med"><input type="radio" name="membership" value="Gold"> Gold Membership</label>
             </fieldset>
-            <fieldset><!--Description of what members get when joining-->
+            <fieldset>
                 <legend>Membership rewards</legend>
                 <p>All businesses are listed on this website and will recieve our bimonthly business magazine</p>
-                <textarea>Not for Profit Membership - $50 annual fee</textarea>
-                <p>Also includes one spotlight featured on our website & magazine once a year</p>
-                <textarea>Bronze - $99 annually</textarea>
-                <p>Also includes spotlights featured on our website & magazine twice a year</p>
-                <textarea>Silver - $199 annually</textarea>
-                <p>Also includes quarterly spotlights featured on our website & magazine plus free vouchers to business
-                    events</p>
-                <textarea>Gold - $299 annually</textarea>
-                <p>Also includes invites to business training quarterly events, bimonthly spotlights featured on our
-                    website & magazine, discounts to
+                <textarea>Not for Profit Membership 🤝- $50 annual fee</textarea>
+                <p>NFP also includes spotlights twice featured on our website and in our magazine</p>
+                <textarea>Bronze 🥉- $99 annually</textarea>
+                <p>Bronze also includes 3 spotlights featured on our website and magazine plus a free business seminar
+                </p>
+                <textarea>Silver 🥈 - $199 annually</textarea>
+                <p>Silver also includes quarterly spotlights featured on our website & magazine, free vouchers to
+                    business
+                    events and a free business seminar</p>
+                <textarea>Gold 🥇- $299 annually</textarea>
+                <p>Gold also includes invites to business training quarterly events, a free seminar, regular spotlights
+                    featured on our
+                    website & every magazine, discounts to
                     special events and free vouchers to business events</p>
             </fieldset>
             <!--timestamp yet to do- see last week local storage plus JS-->
@@ -111,7 +112,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/toggle.js"></script>
-    <!--web component javascript here -->
 </body>
 
 </html>
