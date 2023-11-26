@@ -1,5 +1,5 @@
-const baseURL = "https://thaehae.github.io/wdd230/";
-const url = "https://github.com/thaehae/wdd230/blob/main/chamber/data/members.json";
+const baseURL = "https://thaehae.github.io/wdd230/chamber/index.html";
+const url = "https://github.com/thaehae/wdd230/chamber/data/members.json";
 const bizcards = document.querySelector('#bizcards');
 async function getMemberData(url) {
     const response = await fetch(url);
@@ -22,13 +22,13 @@ const displayMembers = (members) => {
         let bizidNumber = document.createElement('p');
 
 
-        bizName.textContent = `🌏${member.business_name} `;
-        bizAddress.textContent = `🏡 ${member.address}`;
-        bizPhone.textContent = `☎ ${member.phone}`;
-        bizEmail.textContent = `💻 ${member.email}`;
-        bizWebsite.textContent = `📧 ${member.website}`;
-        bizmLevel.textContent = `🥇 ${member.membership_level}`;
-        bizidNumber = `🛂 ${member.ID}`;
+        bizName.textContent = `${member.business_name} `;
+        bizAddress.textContent = `${member.address}`;
+        bizPhone.textContent = `${member.phone}`;
+        bizEmail.textContent = `${member.email}`;
+        bizWebsite.textContent = `${member.website}`;
+        bizmLevel.textContent = `${member.membership_level}`;
+        bizidNumber = `${member.ID}`;
         portrait.setAttribute('src', member.imageurl);
         portrait.setAttribute('alt', `Portrait of ${member.bizName}`);
         portrait.setAttribute('loading', 'lazy');

@@ -8,7 +8,7 @@
             "website": "https://www.waihekelivinggiving.co.nz",
             "membership_level": "Bronze",
             "ID": 104,
-            "imageurl": ""
+            "imageurl": "https://thaehae.github.io/wdd230/chamber/images/hero-living.webp"
         },
         {
             "business_name": "Wai Weekender",
@@ -18,7 +18,7 @@
             "website": "https://waihekegulfnews.co.nz",
             "membership_level": "Bronze",
             "ID": 104,
-            "imageurl": ""
+            "imageurl": "https://thaehae.github.io/wdd230/chamber/images/hero-weekender.webp"
         },
         {
             "business_name": "Casita Grande",
@@ -28,7 +28,7 @@
             "website": "https://www.casitagrande.co.nz/",
             "membership_level": "Silver",
             "ID": 367,
-            "imageurl": ""
+            "imageurl": "https://thaehae.github.io/wdd230/chamber/images/hero-casita.webp"
         },
         {
             "business_name": "HP Landscaping & Construction",
@@ -38,7 +38,7 @@
             "website": "hhtps://www.hplandandconstruction.com",
             "membership_level": "Bronze",
             "ID": 186,
-            "imageurl": ""
+            "imageurl": "https://thaehae.github.io/wdd230/chamber/images/hero-landscape.webp"
         },
         {
             "business_name": "Harcourts Real Estate",
@@ -48,7 +48,7 @@
             "website": "https://harcourtswaiheke.co.nz",
             "membership_level": "Gold",
             "ID": 205,
-            "imageurl": ""
+            "imageurl": "https://thaehae.github.io/wdd230/chamber/images/hero-harcourts.webp"
         },
         {
             "business_name": "Gulf Accountants",
@@ -58,7 +58,7 @@
             "website": "https://gulfaccountants.co.nz",
             "membership_level": "Silver",
             "ID": 421,
-            "imageurl": ""
+            "imageurl": "https://thaehae.github.io/wdd230/chamber/images/hero-gulf.webp"
         },
         {
             "business_name": "The Hekete",
@@ -68,17 +68,17 @@
             "website": "https://www.theheke.co.nz/",
             "membership_level": "Silver",
             "ID": 339,
-            "imageurl": ""
+            "imageurl": "https://thaehae.github.io/wdd230/chamber/images/hero-hekete.webp"
         },
         {
-            "business_name": "Discover Tours",
+            "business_name": "Discovery Tours",
             "address": "Pier 4, 139 Quay Street, Downtown Auckland",
             "phone": "09 372 6025",
-            "email": "info@discover.co.nz",
-            "website": "https://www.discover.co.nz/contact-us/",
+            "email": "info@discovery.co.nz",
+            "website": "https://www.discovery.co.nz/contact-us/",
             "membership_level": "Silver",
             "ID": 10,
-            "imageurl": ""
+            "imageurl": "https://thaehae.github.io/wdd230/chamber/images/hero-tours.webp"
         },
         {
             "business_name": "Tectural Designs",
@@ -88,17 +88,17 @@
             "website": "https://www.tecturaldesignsnz.com",
             "membership_level": "Gold",
             "ID": 271,
-            "imageurl": ""
+            "imageurl": "https://thaehae.github.io/wdd230/chamber/images/hero-tectural.webp"
         },
         {
             "business_name": "Waiwai Specialty Foods",
             "address": "31 Storm Street, Ostend",
             "phone": "0274942405",
             "email": "info@waiwaispecialfoods.co.nz",
-            "website": "https://www.waiwaispecialfoods.co.nz",
+            "website": "https://www.wai2specialfoods.com",
             "membership_level": "Gold",
             "ID": 104,
-            "imageurl": ""
+            "imageurl": "https://thaehae.github.io/wdd230/chamber/images/hero-waiwai.webp"
         },
         {
             "business_name": "Motu Electrical",
@@ -108,7 +108,7 @@
             "website": "https://motuelectrical.co.nz",
             "membership_level": "Bronze",
             "ID": 104,
-            "imageurl": ""
+            "imageurl": "https://thaehae.github.io/wdd230/chamber/images/hero-motu.webp"
         }
     ]
 }
