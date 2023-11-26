@@ -1,18 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tracy Haehae WDD 230</title>
-
-    <meta name="description" content="Partners page">
+    <meta name="description" content="The Chamber of Commerce Partners page that shows our services and partners">
     <meta name="author" content="Tracy Haehae">
-
     <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="favicon-chamber.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Waiheke Chamber of Commerce page with our partners">
+    <meta property="og:type" content="Website">
+    <meta property="og:image" content="https://www.tourismwaiheke.co.nz/play/diving-and-snorkeling/">
+    <meta property="og:url" content="https://www.tourismwaiheke.co.nz/">
     <style>
         form {
             /* Center the form on the page */
@@ -121,7 +124,6 @@
         </div>
     </header>
 
-
     <main>
         <div class="companies">
             <h1>Our Partners</h1>
@@ -129,29 +131,30 @@
             </p>
         </div>
         <div class="partners-grid">
-            <section class="partner1-card">
-                <img src="images/partner1.webp" alt="Fletcher icon" width="400" height="200">
-            </section>
-            <section class="partner2-card">
-                <img src="images/partner2.webp" alt="Skycity icon" width="400" height="200">
-            </section>
-            <section class="partner3-card">
-                <img src="images/partner3.webp" alt="westgate icon" width="400" height="150">
-            </section>
-            <section class="partner4-card">
-                <img src="images/partner4.webp" alt="blue icon" width="400" height="200">
-            </section>
-            <section class="partner5-card">
-                <img src="images/partner5.webp" alt="green bank icon" width="400" height="200">
-            </section>
-            <section class="partner6-card">
-                <img src="images/partner6.webp" alt="burger king icon" width="200" height="200">
-            </section>
+            <div class="partner1-card">
+                <img src="images/partner1.webp" alt="Fletcher icon" width="400" height="200" Loading="lazy">
+            </div>
+            <div class="partner2-card">
+                <img src="images/partner2.webp" alt="Skycity icon" width="400" height="200" Loading="lazy">
+            </div>
+            <div class="partner3-card">
+                <img src="images/partner3.webp" alt="westgate icon" width="400" height="150" Loading="lazy">
+            </div>
+            <div class="partner4-card">
+                <img src="images/partner4.webp" alt="blue icon" width="400" height="200" Loading="lazy">
+            </div>
+            <div class="partner5-card">
+                <img src="images/partner5.webp" alt="green bank icon" width="400" height="200" Loading="lazy">
+            </div>
+            <div class="partner6-card">
+                <img src="images/partner6.webp" alt="burger king icon" width="200" height="200" Loading="lazy">
+            </div>
         </div>
         <div class="services">
-            <h2>Our Services include</h2>
-            <p>All Administration, Website, Financial, Business manual, Processing, Seminars & Business Training.</p>
-            <p>Submit any questions here</p>
+            <h2>Our Services Include</h2>
+            <p>Administration, Website, Financial, Business manual, Processing, Seminars & Business
+                Training.</p>
+            <h3>Submit any questions here</h3>
         </div>
         <div id="reply">
         </div>
@@ -169,7 +172,7 @@
                     <label for="msg">Message:</label>
                     <textarea id="msg" name="user_message"></textarea>
                 </li>
-                <li class="button" href="thank-you.html">
+                <li class="button">
                     <button type="submit">Send your message</button>
                 </li>
             </ul>

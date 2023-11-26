@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Waiheke Chamber of Commerce Directory Page</title>
-    <meta name="Tracy Mahuenoa Haehae" content="A directory of members for Chamber of Commerce">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Waiheke Chamber of Commerce Directory Page containing it's members</title>
+    <meta name="Tracy Mahuenoa Haehae" content="A directory of members for the Chamber of Commerce">
+    <meta name="author" content="Tracy Mahuenoa Haehae">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -13,10 +14,8 @@
     <link rel="icon" href="favicon-chamber.ico">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oxygen:wght@700&display=swap" rel="stylesheet">
     <meta name="description" content="Waiheke Island Chamber of commerce directory for members">
-    <meta name="author" content="Tracy Mahuenoa Haehae">
     <meta property="og:title" content="Directory of Members Waiheke Chamber of Commerce">
     <meta property="og:type" content="Waiheke Chamber of Commerce - Business will thrive">
-
     <meta property="og:image" content="https://www.tourismwaiheke.co.nz/play/diving-and-snorkeling/">
     <meta property="og:url" content="https://www.tourismwaiheke.co.nz/">
 </head>
@@ -27,7 +26,7 @@
             <div class="head-grid">
                 <a id="logo_link" href="index.html">
                     <img class="logo" src="images/new-logo.webp" alt="green with house and letters" width="300"
-                        height="250">
+                        height="250" Loading="lazy">
                 </a>
             </div>
             <nav>
@@ -46,8 +45,9 @@
         <main>
             <picture>
                 <source srcset="images/hero-chamber-small.webp" media="(max-width: 500px)">
-                <!--<source srcset="images/hero-pohutukawa-medium.webp" media="(max-width: 900px)">-->
-                <img src="images/hero-chamber-large.webp" width="1280" height="640" alt="man and lady at table">
+                <source srcset="images/hero-chamber-medium.webp" media="(max-width: 900px)">
+                <img src="images/hero-chamber-large.webp" width="1280" height="640" alt="man and lady at table"
+                    Loading="lazy">
             </picture>
             <h1>Our Members</h1>
             <div id="bizcards">
