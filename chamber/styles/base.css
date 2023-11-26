@@ -13,8 +13,9 @@ header {
     padding: 0.5rem;
     background-color: #10C297;
     text-align: center;
-    color: #FFFFFF;
+    color: #005500;
     justify-content: space-evenly;
+    font-size: large;
 }
 
 .head-grid img .logo {
@@ -87,6 +88,7 @@ main {
 p {
     font-family: 'Lato', sans-serif;
     color: #FFFFFF;
+    font-size: large;
 }
 
 h3,
@@ -221,14 +223,14 @@ footer p {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
-    border-radius: 5px;
+    border-radius: 40px;
 }
 
 .join:hover,
 .cool:hover,
 .point:hover {
     background-color: #804600;
-    color: #10C297;
+    color: #FFFFFF;
 }
 
 .news-grid {
@@ -306,6 +308,19 @@ footer p {
     box-shadow: 4px 5px 8px rgb(163, 164, 233);
 }
 
+.temperature .banner p,
+.temperature .forecast p,
+.temperature .rise p {
+    color: #002627;
+}
+
+.spotlight .discovery h3,
+.spotlight .living h3,
+.spotlight .waiwai h3,
+.spotlight .land h3 {
+    color: #002627;
+}
+
 
 footer {
     display: flex;
@@ -327,7 +342,7 @@ footer .social img {
     border: 1px solid rgba(0, 0, 0, .3);
     padding: 3px 7px 6px;
     background-color: #002627;
-    color: blue;
+    color: #FFFFFF;
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -368,7 +383,7 @@ footer .social img {
 
 .navigation li a:hover {
     background-color: #FFFFFF;
-    color: #10C297;
+    color: #002627;
     font-weight: 700;
 }
 
@@ -657,7 +672,7 @@ form label.med {
 form input.bottom {
     border: none;
     background-color: #10C297;
-    color: #005500;
+    color: #002627;
     border-radius: 2rem;
     padding: .20rem 1.5rem;
     margin: 0 0 2rem 2%;
@@ -673,6 +688,9 @@ form label.top input:required:valid {
     border-left: #005500 6px;
 }
 
+form {
+    font-size: large;
+}
 
 /*----------- FOOTER --------------*/
 /*footer {
@@ -695,6 +713,12 @@ form label.top input:required:valid {
 main p {
     color: #FFFFFF;
     border: #FFFFFF;
+}
+
+.thanks {
+    margin: 20px;
+    border: 3px solid #FFFFFF;
+    border-radius: 2em;
 }
 
 
