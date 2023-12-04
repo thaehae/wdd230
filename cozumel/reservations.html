@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scoots Cozumel</title>
+    <meta name="Tracy Mahuenoa Haehae"
+        content="Scoots Cozumel is a website for information to rent scooters and other vehicles in Cozumel Mexico">
+    <meta name="author" content="Tracy Mahuenoa Haehae">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Vina+Sans&display=swap"
+        rel="stylesheet">
+    <meta name="description" content="Scoots Cozumel has information to rent scooters">
+    <meta property="og:title" content="Scoots Cozumel is a website for scooter, jeep and vehicle hire.">
+    <meta property="og:type" content="Scoots Cozumel is a website for scooter rental">
+    <meta property="og:image" content="https://cozumelvisitorsguide.com/map-of-isla-cozumel/">
+    <meta property="og:url" content="https://cozumelvisitorsguide.com/welcome-to-cozumel/">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <div class="logogo">
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="images/logo.webp" alt="" width="300" height="250" Loading="lazy">
+                </a>
+            </div>
+            <nav>
+                <button id="menu"></button>
+                <ul class="navigation">
+                    <li><a href="index.html" target=”_blank”>Home</a></li>
+                    <li><a href="rentals.html" target=”_blank”>Rentals</a></li>
+                    <li><a href="reservations.html" target=”_blank”>Reservations</a></li>
+                    <li><a href="contact.html" target=”_blank”>Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="http://facebook.com" target="_blank">
+                    <img src="images/" alt="" width="" height="" Loading="lazy"></a>
+                <a href="http://instagram.com" target="_blank">
+                    <img src="images/" alt="" width="" height="" Loading="lazy"></a>
+                <a href="http://twitter.com" target="_blank">
+                    <img src="images/" alt="" width="" height="" Loading="lazy"></a>
+                <a href="http://tiktok.com" target="_blank">
+                    <img src="images/" alt="" width="" height="" Loading="lazy"></a>
+            </div>
+        </header>
+        <main>
+            <h1>Rental Application</h1>
+            <form method="get" action="thank-you.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name* <input type="text" id="name" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
+                    <label class="top">Email* <input type="email" id="email" name="email"
+                            placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone* <input type="tel" id="phone" name="phone" placeholder="1235551234"
+                            required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Vehicle Choice</legend>
+                    <label class="top">Position <input type="text" id="title" name="title" pattern=".{7,}"
+                            title="Seven or more characters"></label>
+                    <label class="top">Organisation Name* <input type="text" id="Obusiness" name="business"
+                            required></label>
+                    <label class="top">Organisation description* <input type="text" id="business"
+                            name="business"></label>
+                    <label class="top">Website <input type="url" id="web" name="url" placeholder="http://"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Payment</legend>
+                    <div>Choose one</div>
+                    <label class="med"><input type="radio" name="membership" value="NPO"> NP Membership is for non
+                        profit
+                        organizations</label>
+                    <label class="med"><input type="radio" name="membership" value="Bronze"> Bronze Membership</label>
+                    <label class="med"><input type="radio" name="membership" value="Silver"> Silver Membership</label>
+                    <label class="med"><input type="radio" name="membership" value="Gold"> Gold Membership</label>
+                </fieldset>
+                <!--<fieldset>
+                <legend>Membership rewards</legend>
+                <p>All businesses are listed on this website and will recieve our bimonthly business magazine</p>
+                <textarea>Not for Profit Membership 🤝- $50 annual fee</textarea>
+                <p>NFP also includes spotlights twice featured on our website and in our magazine</p>
+                <textarea>Bronze 🥉- $99 annually</textarea>
+                <p>Bronze also includes 3 spotlights featured on our website and magazine plus a free business seminar
+                </p>
+                <textarea>Silver 🥈 - $199 annually</textarea>
+                <p>Silver also includes quarterly spotlights featured on our website & magazine, free vouchers to
+                    business
+                    events and a free business seminar</p>
+                <textarea>Gold 🥇- $299 annually</textarea>
+                <p>Gold also includes invites to business training quarterly events, a free seminar, regular spotlights
+                    featured on our
+                    website & every magazine, discounts to
+                    special events and free vouchers to business events</p>
+            </fieldset>-->
+                <!--timestamp yet to do- see last week local storage plus JS-->
+                <input type="submit" value="Rent now" class="bottom">
+            </form>
+            <picture>
+                <source srcset="images/snorkel-small.webp" media="(max-width: 500px)">
+                <source srcset="images/snorkel-medium.webp" media="(max-width: 900px)">
+                <img src="images/snorkel-large.webp" width="1200" height="600" alt="Two snorkeling and yellow fish"
+                    Loading="lazy">
+            </picture>
+
+        </main>
+        <footer>
+            <nav>
+                <button id="menu"></button>
+                <ul class="navigation">
+                    <li><a href="index.html" target=”_blank”>Home</a></li>
+                    <li><a href="rentals.html" target=”_blank”>Rentals</a></li>
+                    <li><a href="reservations.html" target=”_blank”>Reservations</a></li>
+                    <li><a href="contact.html" target=”_blank”>Contact Us</a></li>
+                    <li><a href="reference.txt" target=”_blank”>References</a></li>
+                </ul>
+            </nav>
+            <div>
+                <p>Playa del Carmen-Cozumel Ferry Dock</p>
+                <p>El Central de Cozumel</p>
+                <p>☎ 318 4422</p>
+                <p>scootscozumel.com</p>
+            </div>
+            <div>
+                <p>Terminal Puerta Maya</p>
+                <p>South Cozumel</p>
+                <p>☎ 318 5533</p>
+                <p>scootscozumel.com</p>
+            </div>
+            <div>
+                <p>&copy;Scoots Cozumel <span class="date"></span></p>
+                <p id="lastModified"> Last updated <span class="update"></span></p>
+            </div>
+        </footer>
+        <script src="scripts/get-dates.js"></script>
+        <script src="scripts/.js"></script>
+        <script src="scripts/.js"></script>
+        <script src="scripts/.js"></script>
+
+    </div>
+</body>
+
+</html>
