@@ -1,10 +1,9 @@
 #content {
-    max-width: 1400px;
-
+    max-width: 100%;
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #93ECF0;
     font-family: 'Roboto', serif;
     font-size: larger;
 }
@@ -21,13 +20,15 @@ header {
     font-family: 'Vina sans', serif;
 }
 
-
 #menu {
     color: black;
 }
 
+picture {
+    max-width: 100%;
+}
+
 main {
-    background-color: #93ecf0;
     color: #105972;
     justify-content: center;
     text-align: center;
@@ -50,21 +51,25 @@ picture {}
 
 .lets-go-grid {
     display: grid;
-    grid-area: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
     margin: 10px;
 }
 
 .motorscooter-card {
     grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 .jeep-card {
-    grid-column: 2/3
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 .atv-card {
-    grid-column: 3/4;
+    grid-column: 1/2;
+    grid-row: 3/4;
 }
 
 .events-grid {
