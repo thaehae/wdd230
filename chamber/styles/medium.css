@@ -1,7 +1,8 @@
-@media (min-width: 250px) {
+@media (max-width: 499px) {
     .hero img {
         width: 250px;
-        height: 150px;
+        height: 125px;
         object-fit: cover;
+        max-width: 100%;
     }
 }
