@@ -1,4 +1,4 @@
-const baseURL = "https://thaehae.github.io/wdd230/cozumel/index.html";
+const baseURL = "https://thaehae.github.io/wdd230/tree/main/cozumel/rentals.html";
 const url = "https://github.com/thaehae/wdd230/cozumel/data/prices.json";
 const prices = document.querySelector('#prices');
 async function getRentalData(url) {
@@ -27,14 +27,14 @@ const displayRentals = (rentals) => {
         walkHalf.textContent = `${rental.walk_half_day}`;
         walkFull.textContent = `${rental.walk_full_day}`;
 
+        price.appendChild(type);
+        price.appendChild(persons);
+        price.appendChild(resHalf);
+        price.appendChild(resFull);
+        price.appendChild(walkHalf);
+        price.appendChild(walkFull);
 
-        type.appendChild(persons);
-        type.appendChild(resHalf);
-        type.appendChild(resFull);
-        type.appendChild(walkHalf);
-        type.appendChild(walkFull);
-
-        prices.appendChild(type)
+        prices.appendChild(price)
 
     }); // end of arrow function and forEach loop
 }

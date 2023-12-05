@@ -1,4 +1,4 @@
-const baseURL = "https://thaehae.github.io/wdd230/chamber/index.html";
+const baseURL = "https://thaehae.github.io/wdd230/chamber/directory.html";
 const url = "https://github.com/thaehae/wdd230/chamber/data/members.json";
 const bizcards = document.querySelector('#bizcards');
 async function getMemberData(url) {
