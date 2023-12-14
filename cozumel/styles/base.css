@@ -61,7 +61,7 @@ main {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    background-color: #F4AA4C;
+    background-color: #93ECF0;
     font-family: 'Vina sans', serif;
     color: #002627;
     font-size: larger;
@@ -233,7 +233,7 @@ form label.med {
 
 form input.bottom {
     border: none;
-    background-color: #10C297;
+    background-color: #93ECF0;
     color: #002627;
     border-radius: 2rem;
     padding: .20rem 1.5rem;

@@ -1,10 +1,16 @@
 Ola! This is my attributes/ reference and resource page.
 
-Favicon - https://www.favicon.cc/
-Normalize CSS - Used same as Homepage & Chamber
+Favicon - https://www.favicon.cc/ 
+Normalize CSS 
 google fonts - https://fonts.google.com/
 colors - coolors.png
 c:\Users\Tracy\OneDrive\Desktop\images extra\color-palette.png
+color palette - 
+#93ECF0 (light blue) buttons
+#F4AA4C (pastel orange) color contrast, buttons
+#105972 (darker blue) text
+#D4D803 (yellow) used for header & footer background 
+#7E0400 (crimson red) used for logo
 Hand drawn wireframes
 https://coolors.co/contrast-checker/112a46-acc8e5
 
@@ -32,3 +38,4 @@ sculpture: by JR Harris https://unsplash.com/photos/brown-and-green-tree-near-bo
 market: by Braden Collum https://unsplash.com/photos/people-walking-on-street-during-daytime-J2_IBoyPpJQ
 Jeep at beach : by Caleb George https://unsplash.com/photos/two-men-on-brown-suv-at-daytime-G7hmn5v3zU8
 hammock: by Paul Bates https://paulbates.com/colorful-mayan-hammock-cozumel-mexico-pictures-photos/</p>
+
