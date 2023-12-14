@@ -24,6 +24,11 @@ header {
     color: black;
 }
 
+h1,
+h2 {
+    text-align: center;
+}
+
 picture {
     max-width: 100%;
 }
@@ -32,6 +37,34 @@ main {
     color: #105972;
     justify-content: center;
     text-align: center;
+}
+
+.herolabel {
+    display: flex;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+
+.scooter-prices {
+    grid-column: 2/3;
+}
+
+.rental-application {
+    grid-column: 3/4;
+}
+
+.scooter-prices,
+.rental-application {
+    border: #002627;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #F4AA4C;
+    font-family: 'Vina sans', serif;
+    color: #002627;
+    font-size: larger;
 }
 
 #header-menu,
@@ -47,26 +80,6 @@ main {
 
 #rainy-icon {
     background-color: #D4D803;
-}
-
-.lets-go-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    margin: 10px;
-}
-
-.motorscooter-card {
-    grid-column: 1/2;
-    margin: 10px;
-}
-
-.jeep-card {
-    grid-column: 2/3;
-}
-
-.atv-card {
-    grid-column: 3/4;
 }
 
 .events-grid {
@@ -194,7 +207,7 @@ form label.top,
 form div {
     display: block;
     padding-top: 1rem;
-    color: #10C297;
+    color: black;
     font-size: .8rem;
 }
 
