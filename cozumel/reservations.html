@@ -59,34 +59,52 @@
             <form method="get" action="thank-you.html">
                 <fieldset>
                     <legend>Applicant Information</legend>
-                    <label class="top">First Name* <input type="text" id="name" name="fname" required></label>
-                    <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
-                    <label class="top">Email* <input type="email" id="email" name="email"
-                            placeholder="someone@gmail.com" required></label>
+                    <label class="top">Name* <input type="text" id="name" name="fname" required></label>
                     <label class="top">Phone* <input type="tel" id="phone" name="phone" placeholder="1235551234"
                             required></label>
+                    <label class="top">Email* <input type="email" id="email" name="email"
+                            placeholder="someone@gmail.com" required></label>
+                    <label class="top">Country* <input type="text" id="country" name="country" required></label>
+                    <label class="top">Cruise line <input type="text" id="ship" name="ship"></label>
+                    <label class="top">Comments <input type="text" id="comments" name="comments"></label>
                 </fieldset>
                 <fieldset>
-                    <legend>Vehicle Choice</legend>
-                    <label class="top">Position <input type="text" id="title" name="title" pattern=".{7,}"
-                            title="Seven or more characters"></label>
-                    <label class="top">Organisation Name* <input type="text" id="Obusiness" name="business"
+                    <legend>Rental Information</legend>
+                    <label class="top">Date start* <input type="date" id="dates" name="dates" placeholder="1235551234"
                             required></label>
-                    <label class="top">Organisation description* <input type="text" id="business"
-                            name="business"></label>
-                    <label class="top">Website <input type="url" id="web" name="url" placeholder="http://"></label>
+                    <label class="top">Date finish* <input type="date" id="datef" name="datef" placeholder="1235551234"
+                            required></label>
+                    <label class="top">Rental type* (Scooter, Jeep, ATV)<input type="text" id="" name="business"
+                            pattern=".{3,}" title="Three or more characters" required></label>
+                    <label class="top">Number of persons* <input type="text" id="business" name="business"></label>
                 </fieldset>
                 <fieldset>
-                    <legend>Payment</legend>
-                    <div>Choose one</div>
-                    <label class="med"><input type="radio" name="membership" value="NPO"> NP Membership is for non
-                        profit
-                        organizations</label>
-                    <label class="med"><input type="radio" name="membership" value="Bronze"> Bronze Membership</label>
-                    <label class="med"><input type="radio" name="membership" value="Silver"> Silver Membership</label>
-                    <label class="med"><input type="radio" name="membership" value="Gold"> Gold Membership</label>
+                    <legend>Rental Agreement</legend>
+                    <div>
+                        A $50 security deposit is required to confirm reservations.
+                        A valid drivers license is required in hand at the time of rental.
+                        No one under the age of 12 years of age are allowed to ride on the scooters.
+                        Fuel charge is not included.
+                        Unlimited mileage.
+                        Liability insurance is included.
+                        Damage insurance is available for purchase.
+                        Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.
+                        Payment via Google pay, cash, credit card, debit card or other (ie: voucher).
+                        Rentals may be returned to either physical location.
+                    </div>
+                    <div>By ticking I am signing and agree to the rental agreement in full*</div>
+                    <label class="med"><input type="radio" name="membership" value="Agree" required> I Agree</label>
                 </fieldset>
-                <input type="submit" value="Rent now" class="bottom">
+                <fieldset>
+                    <legend>Payment details</legend>
+                    <div>Choose one*</div>
+                    <label class="med"><input type="radio" name="membership" value="Google"> Google pay</label>
+                    <label class="med"><input type="radio" name="membership" value="Credit"> Credit card</label>
+                    <label class="med"><input type="radio" name="membership" value="Debit"> Debit card</label>
+                    <label class="med"><input type="radio" name="membership" value="Cash"> Cash</label>
+                    <label class="med"><input type="radio" name="membership" value="Paypal"> Paypal </label>
+                </fieldset>
+                <input type="submit" value="Rent my scooter" class="bottom">
             </form>
             <h2>We wont leave you swimming!</h2>
             <picture>
