@@ -1,0 +1,34 @@
+Ola! This is my attributes/ reference and resource page.
+
+Favicon - https://www.favicon.cc/
+Normalize CSS - Used same as Homepage & Chamber
+google fonts - https://fonts.google.com/
+colors - coolors.png
+c:\Users\Tracy\OneDrive\Desktop\images extra\color-palette.png
+Hand drawn wireframes
+https://coolors.co/contrast-checker/112a46-acc8e5
+
+https://openweathermap.org/
+Edit images: https://pixlr.com/editor/
+logo - https://looka.com/
+google maps cozumel
+
+information resources & images resource:
+https://www.hondamotorbikes.co.nz/scooters
+https://unsplash.com/s/photos/cozumel
+https://www.islandlifemexico.com/best-of-cozumel/#
+https://www.islandlifemexico.com/cozumel-hotel-guide/
+https://cozumelvisitorsguide.com/map-of-isla-cozumel/
+
+
+Images sourced:
+land: by devlin_photography https://unsplash.com/photos/aerial-photography-of-trees-under-clear-blue-sky-QSF_naW7Rv0
+seaside: by Spencer Watson https://unsplash.com/photos/aerial-photography-of-houses-near-the-sea-jG1qamY6TGw
+snorkel: by Sebastian Pena Lambarri https://unsplash.com/photos/two-people-scuba-diving-underwater-7i5HMCGupVw
+blue scooter: by Ruslan Bardash https://unsplash.com/photos/blue-scooter-motorcycle-outside-house-xRdZIt66FSE
+puffer fish: by Vlad Tchompalov https://unsplash.com/photos/underwater-photography-of-brown-pufferfish-LsIXVKThAG0
+scooter: by Caleb George https://unsplash.com/photos/people-riding-motorcycle-on-beach-side-nhXV1T9LVMg
+sculpture: by JR Harris https://unsplash.com/photos/brown-and-green-tree-near-body-of-water-during-daytime-cKcdIb5ZUXM
+market: by Braden Collum https://unsplash.com/photos/people-walking-on-street-during-daytime-J2_IBoyPpJQ
+Jeep at beach : by Caleb George https://unsplash.com/photos/two-men-on-brown-suv-at-daytime-G7hmn5v3zU8
+hammock: by Paul Bates https://paulbates.com/colorful-mayan-hammock-cozumel-mexico-pictures-photos/</p>
