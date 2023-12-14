@@ -541,6 +541,14 @@ p {
     font-size: larger;
 }
 
+.discover-grid:hover,
+.fun-grid:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #FFFFFF;
+
+
+}
+
 
 
 
